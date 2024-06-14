@@ -1,0 +1,3 @@
+[submodule "vendor/pgf-encoding"]
+	path = vendor/pgf-encoding
+	url = https://github.com/wipfli/pgf-encoding.git
