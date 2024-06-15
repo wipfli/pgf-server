@@ -5,10 +5,11 @@ version = '1'
 text = 'नेपाल'
 url = f'http://localhost:3000/{font_name}/{version}/{text}'
 
-print(url)
+print('url', url)
+
 response = requests.get(url)
 
-print(response.status_code)
+print('status code', response.status_code)
 
 if response.status_code == 200:
     for c in response.text:
